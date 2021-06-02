@@ -112,19 +112,16 @@ body {
     border: 3px solid #61a7e9;
   }
   
-  /* The user's cursor is positioned over the element */
   button:hover {
     background-color: #d6f54c;
     color: #fff;
   }
   
-  /* The user is actively pressing down on the element */
   button:active {
     font-size: 180%;
     box-shadow: 0 0 10px rgb(54, 53, 53) inset;
   }
   
-  /* The element is currently in focus, either by tabbing to or clicking on it */
   button:focus {
     outline: none;
     border-color: #8ac4ff;
@@ -228,18 +225,14 @@ margin: 20px auto;
     border-left: 2px solid #fa0c0c;
     box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #fa0c0c;
 }
-/*ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}*/
 
-/* Month header */
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #04b995;
   text-align: center;
 }
 
-/* Month list */
 .month ul {
   margin: 0;
   padding: 0;
@@ -252,19 +245,16 @@ body {font-family: Verdana, sans-serif;}*/
   letter-spacing: 3px;
 }
 
-/* Previous button inside month header */
 .month .prev {
   float: left;
   padding-top: 10px;
 }
 
-/* Next button */
 .month .next {
   float: right;
   padding-top: 10px;
 }
 
-/* Weekdays (Mon-Sun) */
 .weekdays {
   margin: 0;
   padding: 10px 0;
@@ -278,7 +268,6 @@ body {font-family: Verdana, sans-serif;}*/
   text-align: center;
 }
 
-/* Days (1-31) */
 .days {
   padding: 10px 0;
   background: #eee;
@@ -295,9 +284,8 @@ body {font-family: Verdana, sans-serif;}*/
   color: #777;
 }
 
-/* Highlight the "current" day */
 .days li .active {
   padding: 5px;
   background: #1abc9c;
-  color: white !important
+  color: white;
 }
